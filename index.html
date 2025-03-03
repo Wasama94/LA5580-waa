@@ -8,51 +8,55 @@
             text-align: center;
             margin: 20px;
         }
-        h2 {
-            color: #333;
-        }
-        .button-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        .button {
-            display: inline-block;
-            background-color: #0073e6;
-            color: white;
-            padding: 15px 25px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 16px;
+        h1 {
+            font-size: 32px;
             font-weight: bold;
-            transition: 0.3s;
+            margin-bottom: 20px;
         }
-        .button:hover {
-            background-color: #005bb5;
+        .grid-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .grid-item {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            flex: 1;
+            min-width: 150px;
+            max-width: 200px;
+        }
+        .grid-item:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
+    <h1>Wasama Abdullah's LA 5580 Course Portfolio</h1>
+
     <h2>📂 Assignments</h2>
-    <div class="button-container">
-        <a href="https://public.tableau.com/views/YourAssignment1" class="button">Assignment 1</a>
-        <a href="https://public.tableau.com/views/YourAssignment2" class="button">Assignment 2</a>
-        <a href="#" class="button">Assignment 3 (Coming Soon)</a>
+    <div class="grid-container">
+        <a class="grid-item" href="https://public.tableau.com/views/YourAssignment1">Assignment 1</a>
+        <a class="grid-item" href="https://public.tableau.com/views/YourAssignment2">Assignment 2</a>
+        <a class="grid-item" href="#">Assignment 3 (To Be Added)</a>
     </div>
 
     <h2>🌍 Projects</h2>
-    <div class="button-container">
-        <a href="#" class="button">Project 1</a>
-        <a href="#" class="button">Project 2</a>
+    <div class="grid-container">
+        <a class="grid-item" href="#">Project 1</a>
+        <a class="grid-item" href="#">Project 2</a>
     </div>
 
     <h2>🔗 Interesting Links</h2>
-    <div class="button-container">
-        <a href="https://www.w3schools.com/html/" class="button">Learn HTML</a>
-        <a href="https://public.tableau.com/" class="button">Tableau Public</a>
+    <div class="grid-container">
+        <a class="grid-item" href="https://www.w3schools.com/html/">Learn HTML</a>
+        <a class="grid-item" href="https://public.tableau.com/">Tableau Public</a>
     </div>
 
 </body>
